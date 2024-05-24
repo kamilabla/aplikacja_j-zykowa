@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using MvcStrona.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<MvcStudentContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("MvcStudentContext") ?? throw new InvalidOperationException("Connection string 'MvcPracownikContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
