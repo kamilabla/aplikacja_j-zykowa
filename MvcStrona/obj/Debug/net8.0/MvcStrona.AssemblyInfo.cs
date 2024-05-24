@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcStrona")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+28d47f6a3ffaeb9385699e08aaaccc94b38da172")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a8a4d4aa86a3af2737b1e3a7dcea78460c4fdee")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcStrona")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcStrona")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
